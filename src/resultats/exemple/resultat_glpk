@@ -1,0 +1,193 @@
+Ouverture du fichier de données : 
+nb_var = 49, nb_cont = 14, nb_mat = 84 
+Fermeture du fichier de données :  
+Writing problem data to 'robots.lp'...
+132 lines were written
+#--------- Résolution n°1 ---------#
+GLPK Simplex Optimizer, v4.52
+14 rows, 49 columns, 84 non-zeros
+      0: obj =   0.000000000e+00  infeas =  1.400e+01 (14)
+*    21: obj =   3.830000000e+03  infeas =  0.000e+00 (2)
+*    40: obj =   2.220000000e+03  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+14 rows, 49 columns, 84 non-zeros
+49 integer variables, all of which are binary
+Integer optimization begins...
++    40: mip =     not found yet >=              -inf        (1; 0)
++    40: >>>>>   2.220000000e+03 >=   2.220000000e+03   0.0% (1; 0)
++    40: mip =   2.220000000e+03 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 2220.000000   |
+#-------------------#
+| x[0,0] = 0        |
+| x[0,1] = 0        |
+| x[0,2] = 0        |
+| x[0,3] = 0        |
+| x[0,4] = 0        |
+| x[0,5] = 0        |
+| x[0,6] = 1        |
+| x[1,0] = 0        |
+| x[1,1] = 0        |
+| x[1,2] = 0        |
+| x[1,3] = 0        |
+| x[1,4] = 0        |
+| x[1,5] = 1        |
+| x[1,6] = 0        |
+| x[2,0] = 0        |
+| x[2,1] = 0        |
+| x[2,2] = 0        |
+| x[2,3] = 1        |
+| x[2,4] = 0        |
+| x[2,5] = 0        |
+| x[2,6] = 0        |
+| x[3,0] = 0        |
+| x[3,1] = 0        |
+| x[3,2] = 1        |
+| x[3,3] = 0        |
+| x[3,4] = 0        |
+| x[3,5] = 0        |
+| x[3,6] = 0        |
+| x[4,0] = 1        |
+| x[4,1] = 0        |
+| x[4,2] = 0        |
+| x[4,3] = 0        |
+| x[4,4] = 0        |
+| x[4,5] = 0        |
+| x[4,6] = 0        |
+| x[5,0] = 0        |
+| x[5,1] = 1        |
+| x[5,2] = 0        |
+| x[5,3] = 0        |
+| x[5,4] = 0        |
+| x[5,5] = 0        |
+| x[5,6] = 0        |
+| x[6,0] = 0        |
+| x[6,1] = 0        |
+| x[6,2] = 0        |
+| x[6,3] = 0        |
+| x[6,4] = 1        |
+| x[6,5] = 0        |
+| x[6,6] = 0        |
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 4         |
+|    1 -> 5         |
+|    2 -> 3         |
+|    3 -> 2         |
+|    4 -> 6         |
+|    5 -> 1         |
+|    6 -> 0         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:4 
+Boucle -> i:0 j:3 y:6 
+AvantBoucle -> i:1 j:2 y:5 
+AvantBoucle -> i:2 j:2 y:3 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 3 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  4  6 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  5 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 2  3 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  2 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  5 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+Cycle minimal : (15); Taille: 2 
+#--------- Résolution n°2 ---------#
+1 5 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+133 lines were written
+GLPK Simplex Optimizer, v4.52
+15 rows, 49 columns, 86 non-zeros
+     40: obj =   2.220000000e+03  infeas =  1.000e+00 (2)
+*    41: obj =   2.335000000e+03  infeas =  0.000e+00 (2)
+*    42: obj =   2.335000000e+03  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+15 rows, 49 columns, 86 non-zeros
+49 integer variables, all of which are binary
+Integer optimization begins...
++    42: mip =     not found yet >=              -inf        (1; 0)
++    42: >>>>>   2.335000000e+03 >=   2.335000000e+03   0.0% (1; 0)
++    42: mip =   2.335000000e+03 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 2335.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 6         |
+|    1 -> 4         |
+|    2 -> 3         |
+|    3 -> 2         |
+|    4 -> 5         |
+|    5 -> 1         |
+|    6 -> 0         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:6 
+AvantBoucle -> i:1 j:2 y:4 
+Boucle -> i:1 j:3 y:5 
+AvantBoucle -> i:2 j:2 y:3 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 3 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  6 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  4  5 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 2  3 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  1 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  6 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°3 ---------#
+0 6 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+134 lines were written
+GLPK Simplex Optimizer, v4.52
+16 rows, 49 columns, 88 non-zeros
+     42: obj =   2.335000000e+03  infeas =  1.000e+00 (2)
+*    45: obj =   2.794000000e+03  infeas =  0.000e+00 (1)
+*    52: obj =   2.575000000e+03  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+16 rows, 49 columns, 88 non-zeros
+49 integer variables, all of which are binary
+Integer optimization begins...
++    52: mip =     not found yet >=              -inf        (1; 0)
++    52: >>>>>   2.575000000e+03 >=   2.575000000e+03   0.0% (1; 0)
++    52: mip =   2.575000000e+03 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 2575.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 4         |
+|    1 -> 2         |
+|    2 -> 3         |
+|    3 -> 6         |
+|    4 -> 5         |
+|    5 -> 1         |
+|    6 -> 0         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:4 
+Boucle -> i:0 j:3 y:5 
+Boucle -> i:0 j:4 y:1 
+Boucle -> i:0 j:5 y:2 
+Boucle -> i:0 j:6 y:3 
+Boucle -> i:0 j:7 y:6 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 1 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  4  5  1  2  3  6 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  1 de taille 7 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  4  5  1  2  3  6 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+
+Résultat Final:
+-----------
+Temps : 0.002000
+Nombre d'appels à GPLK : 3
+Nombre de contraintes ajoutées : 2

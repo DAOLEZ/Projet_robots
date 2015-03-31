@@ -1,0 +1,19 @@
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff77bd12f in _int_free (av=0x7ffff7afc760 <main_arena>, 
+    p=<optimized out>, have_lock=0) at malloc.c:3996
+3996	malloc.c: Aucun fichier ou dossier de ce type.
+(gdb) up
+#1  0x00007ffff7b9bc88 in ?? () from /usr/lib/x86_64-linux-gnu/libglpk.so.36
+(gdb) up
+#2  0x00007ffff7b9299d in ?? () from /usr/lib/x86_64-linux-gnu/libglpk.so.36
+(gdb) up
+#3  0x00007ffff7b256b7 in ?? () from /usr/lib/x86_64-linux-gnu/libglpk.so.36
+(gdb) up
+#4  0x00007ffff7b0b8be in glp_delete_prob ()
+   from /usr/lib/x86_64-linux-gnu/libglpk.so.36
+(gdb) up
+#5  0x000000000040252e in main (argc=1, argv=0x7fffffffde78)
+    at Projet_GRALL_MINIER.c:423
+423		glp_delete_prob(prob); printf("glp_delete_prob \n"); 
+(gdb) up
+Initial frame selected; you cannot go up.

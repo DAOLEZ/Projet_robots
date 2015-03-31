@@ -1,0 +1,1045 @@
+Ouverture du fichier de données : 
+nb_var = 400, nb_cont = 40, nb_mat = 760 
+Fermeture du fichier de données :  
+Writing problem data to 'robots.lp'...
+994 lines were written
+#--------- Résolution n°1 ---------#
+GLPK Simplex Optimizer, v4.52
+40 rows, 400 columns, 760 non-zeros
+      0: obj =   0.000000000e+00  infeas =  4.000e+01 (40)
+*    56: obj =   8.300000000e+02  infeas =  0.000e+00 (4)
+*   137: obj =   1.590000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+40 rows, 400 columns, 760 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   137: mip =     not found yet >=              -inf        (1; 0)
++   137: >>>>>   1.590000000e+02 >=   1.590000000e+02   0.0% (1; 0)
++   137: mip =   1.590000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 159.000000   |
+#-------------------#
+| x[0,0] = 0        |
+| x[0,1] = 0        |
+| x[0,2] = 0        |
+| x[0,3] = 0        |
+| x[0,4] = 0        |
+| x[0,5] = 0        |
+| x[0,6] = 0        |
+| x[0,7] = 0        |
+| x[0,8] = 1        |
+| x[0,9] = 0        |
+| x[0,10] = 0        |
+| x[0,11] = 0        |
+| x[0,12] = 0        |
+| x[0,13] = 0        |
+| x[0,14] = 0        |
+| x[0,15] = 0        |
+| x[0,16] = 0        |
+| x[0,17] = 0        |
+| x[0,18] = 0        |
+| x[0,19] = 0        |
+| x[1,0] = 0        |
+| x[1,1] = 0        |
+| x[1,2] = 0        |
+| x[1,3] = 0        |
+| x[1,4] = 0        |
+| x[1,5] = 0        |
+| x[1,6] = 1        |
+| x[1,7] = 0        |
+| x[1,8] = 0        |
+| x[1,9] = 0        |
+| x[1,10] = 0        |
+| x[1,11] = 0        |
+| x[1,12] = 0        |
+| x[1,13] = 0        |
+| x[1,14] = 0        |
+| x[1,15] = 0        |
+| x[1,16] = 0        |
+| x[1,17] = 0        |
+| x[1,18] = 0        |
+| x[1,19] = 0        |
+| x[2,0] = 0        |
+| x[2,1] = 0        |
+| x[2,2] = 0        |
+| x[2,3] = 0        |
+| x[2,4] = 0        |
+| x[2,5] = 0        |
+| x[2,6] = 0        |
+| x[2,7] = 0        |
+| x[2,8] = 0        |
+| x[2,9] = 0        |
+| x[2,10] = 0        |
+| x[2,11] = 0        |
+| x[2,12] = 0        |
+| x[2,13] = 0        |
+| x[2,14] = 0        |
+| x[2,15] = 0        |
+| x[2,16] = 0        |
+| x[2,17] = 1        |
+| x[2,18] = 0        |
+| x[2,19] = 0        |
+| x[3,0] = 0        |
+| x[3,1] = 0        |
+| x[3,2] = 0        |
+| x[3,3] = 0        |
+| x[3,4] = 0        |
+| x[3,5] = 0        |
+| x[3,6] = 0        |
+| x[3,7] = 0        |
+| x[3,8] = 0        |
+| x[3,9] = 0        |
+| x[3,10] = 0        |
+| x[3,11] = 0        |
+| x[3,12] = 0        |
+| x[3,13] = 0        |
+| x[3,14] = 0        |
+| x[3,15] = 0        |
+| x[3,16] = 0        |
+| x[3,17] = 0        |
+| x[3,18] = 1        |
+| x[3,19] = 0        |
+| x[4,0] = 0        |
+| x[4,1] = 0        |
+| x[4,2] = 0        |
+| x[4,3] = 0        |
+| x[4,4] = 0        |
+| x[4,5] = 0        |
+| x[4,6] = 0        |
+| x[4,7] = 1        |
+| x[4,8] = 0        |
+| x[4,9] = 0        |
+| x[4,10] = 0        |
+| x[4,11] = 0        |
+| x[4,12] = 0        |
+| x[4,13] = 0        |
+| x[4,14] = 0        |
+| x[4,15] = 0        |
+| x[4,16] = 0        |
+| x[4,17] = 0        |
+| x[4,18] = 0        |
+| x[4,19] = 0        |
+| x[5,0] = 0        |
+| x[5,1] = 0        |
+| x[5,2] = 0        |
+| x[5,3] = 0        |
+| x[5,4] = 0        |
+| x[5,5] = 0        |
+| x[5,6] = 0        |
+| x[5,7] = 0        |
+| x[5,8] = 0        |
+| x[5,9] = 0        |
+| x[5,10] = 0        |
+| x[5,11] = 0        |
+| x[5,12] = 0        |
+| x[5,13] = 0        |
+| x[5,14] = 0        |
+| x[5,15] = 1        |
+| x[5,16] = 0        |
+| x[5,17] = 0        |
+| x[5,18] = 0        |
+| x[5,19] = 0        |
+| x[6,0] = 0        |
+| x[6,1] = 1        |
+| x[6,2] = 0        |
+| x[6,3] = 0        |
+| x[6,4] = 0        |
+| x[6,5] = 0        |
+| x[6,6] = 0        |
+| x[6,7] = 0        |
+| x[6,8] = 0        |
+| x[6,9] = 0        |
+| x[6,10] = 0        |
+| x[6,11] = 0        |
+| x[6,12] = 0        |
+| x[6,13] = 0        |
+| x[6,14] = 0        |
+| x[6,15] = 0        |
+| x[6,16] = 0        |
+| x[6,17] = 0        |
+| x[6,18] = 0        |
+| x[6,19] = 0        |
+| x[7,0] = 0        |
+| x[7,1] = 0        |
+| x[7,2] = 0        |
+| x[7,3] = 0        |
+| x[7,4] = 0        |
+| x[7,5] = 0        |
+| x[7,6] = 0        |
+| x[7,7] = 0        |
+| x[7,8] = 0        |
+| x[7,9] = 0        |
+| x[7,10] = 0        |
+| x[7,11] = 0        |
+| x[7,12] = 0        |
+| x[7,13] = 1        |
+| x[7,14] = 0        |
+| x[7,15] = 0        |
+| x[7,16] = 0        |
+| x[7,17] = 0        |
+| x[7,18] = 0        |
+| x[7,19] = 0        |
+| x[8,0] = 0        |
+| x[8,1] = 0        |
+| x[8,2] = 0        |
+| x[8,3] = 0        |
+| x[8,4] = 0        |
+| x[8,5] = 0        |
+| x[8,6] = 0        |
+| x[8,7] = 0        |
+| x[8,8] = 0        |
+| x[8,9] = 0        |
+| x[8,10] = 0        |
+| x[8,11] = 0        |
+| x[8,12] = 0        |
+| x[8,13] = 0        |
+| x[8,14] = 0        |
+| x[8,15] = 0        |
+| x[8,16] = 1        |
+| x[8,17] = 0        |
+| x[8,18] = 0        |
+| x[8,19] = 0        |
+| x[9,0] = 0        |
+| x[9,1] = 0        |
+| x[9,2] = 0        |
+| x[9,3] = 0        |
+| x[9,4] = 0        |
+| x[9,5] = 0        |
+| x[9,6] = 0        |
+| x[9,7] = 0        |
+| x[9,8] = 0        |
+| x[9,9] = 0        |
+| x[9,10] = 0        |
+| x[9,11] = 0        |
+| x[9,12] = 0        |
+| x[9,13] = 0        |
+| x[9,14] = 0        |
+| x[9,15] = 0        |
+| x[9,16] = 0        |
+| x[9,17] = 0        |
+| x[9,18] = 0        |
+| x[9,19] = 1        |
+| x[10,0] = 0        |
+| x[10,1] = 0        |
+| x[10,2] = 0        |
+| x[10,3] = 0        |
+| x[10,4] = 0        |
+| x[10,5] = 0        |
+| x[10,6] = 0        |
+| x[10,7] = 0        |
+| x[10,8] = 0        |
+| x[10,9] = 0        |
+| x[10,10] = 0        |
+| x[10,11] = 1        |
+| x[10,12] = 0        |
+| x[10,13] = 0        |
+| x[10,14] = 0        |
+| x[10,15] = 0        |
+| x[10,16] = 0        |
+| x[10,17] = 0        |
+| x[10,18] = 0        |
+| x[10,19] = 0        |
+| x[11,0] = 0        |
+| x[11,1] = 0        |
+| x[11,2] = 0        |
+| x[11,3] = 0        |
+| x[11,4] = 0        |
+| x[11,5] = 0        |
+| x[11,6] = 0        |
+| x[11,7] = 0        |
+| x[11,8] = 0        |
+| x[11,9] = 0        |
+| x[11,10] = 1        |
+| x[11,11] = 0        |
+| x[11,12] = 0        |
+| x[11,13] = 0        |
+| x[11,14] = 0        |
+| x[11,15] = 0        |
+| x[11,16] = 0        |
+| x[11,17] = 0        |
+| x[11,18] = 0        |
+| x[11,19] = 0        |
+| x[12,0] = 0        |
+| x[12,1] = 0        |
+| x[12,2] = 0        |
+| x[12,3] = 0        |
+| x[12,4] = 0        |
+| x[12,5] = 0        |
+| x[12,6] = 0        |
+| x[12,7] = 0        |
+| x[12,8] = 0        |
+| x[12,9] = 0        |
+| x[12,10] = 0        |
+| x[12,11] = 0        |
+| x[12,12] = 0        |
+| x[12,13] = 0        |
+| x[12,14] = 1        |
+| x[12,15] = 0        |
+| x[12,16] = 0        |
+| x[12,17] = 0        |
+| x[12,18] = 0        |
+| x[12,19] = 0        |
+| x[13,0] = 0        |
+| x[13,1] = 0        |
+| x[13,2] = 0        |
+| x[13,3] = 0        |
+| x[13,4] = 0        |
+| x[13,5] = 0        |
+| x[13,6] = 0        |
+| x[13,7] = 0        |
+| x[13,8] = 0        |
+| x[13,9] = 0        |
+| x[13,10] = 0        |
+| x[13,11] = 0        |
+| x[13,12] = 1        |
+| x[13,13] = 0        |
+| x[13,14] = 0        |
+| x[13,15] = 0        |
+| x[13,16] = 0        |
+| x[13,17] = 0        |
+| x[13,18] = 0        |
+| x[13,19] = 0        |
+| x[14,0] = 0        |
+| x[14,1] = 0        |
+| x[14,2] = 0        |
+| x[14,3] = 0        |
+| x[14,4] = 1        |
+| x[14,5] = 0        |
+| x[14,6] = 0        |
+| x[14,7] = 0        |
+| x[14,8] = 0        |
+| x[14,9] = 0        |
+| x[14,10] = 0        |
+| x[14,11] = 0        |
+| x[14,12] = 0        |
+| x[14,13] = 0        |
+| x[14,14] = 0        |
+| x[14,15] = 0        |
+| x[14,16] = 0        |
+| x[14,17] = 0        |
+| x[14,18] = 0        |
+| x[14,19] = 0        |
+| x[15,0] = 0        |
+| x[15,1] = 0        |
+| x[15,2] = 0        |
+| x[15,3] = 0        |
+| x[15,4] = 0        |
+| x[15,5] = 1        |
+| x[15,6] = 0        |
+| x[15,7] = 0        |
+| x[15,8] = 0        |
+| x[15,9] = 0        |
+| x[15,10] = 0        |
+| x[15,11] = 0        |
+| x[15,12] = 0        |
+| x[15,13] = 0        |
+| x[15,14] = 0        |
+| x[15,15] = 0        |
+| x[15,16] = 0        |
+| x[15,17] = 0        |
+| x[15,18] = 0        |
+| x[15,19] = 0        |
+| x[16,0] = 1        |
+| x[16,1] = 0        |
+| x[16,2] = 0        |
+| x[16,3] = 0        |
+| x[16,4] = 0        |
+| x[16,5] = 0        |
+| x[16,6] = 0        |
+| x[16,7] = 0        |
+| x[16,8] = 0        |
+| x[16,9] = 0        |
+| x[16,10] = 0        |
+| x[16,11] = 0        |
+| x[16,12] = 0        |
+| x[16,13] = 0        |
+| x[16,14] = 0        |
+| x[16,15] = 0        |
+| x[16,16] = 0        |
+| x[16,17] = 0        |
+| x[16,18] = 0        |
+| x[16,19] = 0        |
+| x[17,0] = 0        |
+| x[17,1] = 0        |
+| x[17,2] = 1        |
+| x[17,3] = 0        |
+| x[17,4] = 0        |
+| x[17,5] = 0        |
+| x[17,6] = 0        |
+| x[17,7] = 0        |
+| x[17,8] = 0        |
+| x[17,9] = 0        |
+| x[17,10] = 0        |
+| x[17,11] = 0        |
+| x[17,12] = 0        |
+| x[17,13] = 0        |
+| x[17,14] = 0        |
+| x[17,15] = 0        |
+| x[17,16] = 0        |
+| x[17,17] = 0        |
+| x[17,18] = 0        |
+| x[17,19] = 0        |
+| x[18,0] = 0        |
+| x[18,1] = 0        |
+| x[18,2] = 0        |
+| x[18,3] = 1        |
+| x[18,4] = 0        |
+| x[18,5] = 0        |
+| x[18,6] = 0        |
+| x[18,7] = 0        |
+| x[18,8] = 0        |
+| x[18,9] = 0        |
+| x[18,10] = 0        |
+| x[18,11] = 0        |
+| x[18,12] = 0        |
+| x[18,13] = 0        |
+| x[18,14] = 0        |
+| x[18,15] = 0        |
+| x[18,16] = 0        |
+| x[18,17] = 0        |
+| x[18,18] = 0        |
+| x[18,19] = 0        |
+| x[19,0] = 0        |
+| x[19,1] = 0        |
+| x[19,2] = 0        |
+| x[19,3] = 0        |
+| x[19,4] = 0        |
+| x[19,5] = 0        |
+| x[19,6] = 0        |
+| x[19,7] = 0        |
+| x[19,8] = 0        |
+| x[19,9] = 1        |
+| x[19,10] = 0        |
+| x[19,11] = 0        |
+| x[19,12] = 0        |
+| x[19,13] = 0        |
+| x[19,14] = 0        |
+| x[19,15] = 0        |
+| x[19,16] = 0        |
+| x[19,17] = 0        |
+| x[19,18] = 0        |
+| x[19,19] = 0        |
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 16         |
+|    1 -> 6         |
+|    2 -> 17         |
+|    3 -> 18         |
+|    4 -> 14         |
+|    5 -> 15         |
+|    6 -> 1         |
+|    7 -> 4         |
+|    8 -> 0         |
+|    9 -> 19         |
+|    10 -> 11         |
+|    11 -> 10         |
+|    12 -> 13         |
+|    13 -> 7         |
+|    14 -> 12         |
+|    15 -> 5         |
+|    16 -> 8         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:16 
+Boucle -> i:0 j:3 y:8 
+AvantBoucle -> i:1 j:2 y:6 
+AvantBoucle -> i:2 j:2 y:17 
+AvantBoucle -> i:3 j:2 y:18 
+AvantBoucle -> i:4 j:2 y:14 
+Boucle -> i:4 j:3 y:12 
+Boucle -> i:4 j:4 y:13 
+Boucle -> i:4 j:5 y:7 
+AvantBoucle -> i:5 j:2 y:15 
+AvantBoucle -> i:9 j:2 y:19 
+AvantBoucle -> i:10 j:2 y:11 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 8 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  16  8 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  6 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 2  17 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 3  18 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 4  14  12  13  7 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 9  19 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 10  11 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  2 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  6 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+Cycle minimal : (16); Taille: 2 
+#--------- Résolution n°2 ---------#
+1 6 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+995 lines were written
+GLPK Simplex Optimizer, v4.52
+41 rows, 400 columns, 762 non-zeros
+    137: obj =   1.590000000e+02  infeas =  1.000e+00 (2)
+*   145: obj =   2.515000000e+02  infeas =  0.000e+00 (1)
+*   174: obj =   1.750000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+41 rows, 400 columns, 762 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   174: mip =     not found yet >=              -inf        (1; 0)
++   174: >>>>>   1.750000000e+02 >=   1.750000000e+02   0.0% (1; 0)
++   174: mip =   1.750000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 175.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 16         |
+|    1 -> 10         |
+|    2 -> 17         |
+|    3 -> 18         |
+|    4 -> 6         |
+|    5 -> 15         |
+|    6 -> 1         |
+|    7 -> 4         |
+|    8 -> 0         |
+|    9 -> 19         |
+|    10 -> 11         |
+|    11 -> 14         |
+|    12 -> 13         |
+|    13 -> 7         |
+|    14 -> 12         |
+|    15 -> 5         |
+|    16 -> 8         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:16 
+Boucle -> i:0 j:3 y:8 
+AvantBoucle -> i:1 j:2 y:10 
+Boucle -> i:1 j:3 y:11 
+Boucle -> i:1 j:4 y:14 
+Boucle -> i:1 j:5 y:12 
+Boucle -> i:1 j:6 y:13 
+Boucle -> i:1 j:7 y:7 
+Boucle -> i:1 j:8 y:4 
+Boucle -> i:1 j:9 y:6 
+AvantBoucle -> i:2 j:2 y:17 
+AvantBoucle -> i:3 j:2 y:18 
+AvantBoucle -> i:5 j:2 y:15 
+AvantBoucle -> i:9 j:2 y:19 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 6 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  16  8 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  10  11  14  12  13  7  4  6 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 2  17 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 3  18 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 9  19 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  3 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 2  17 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°3 ---------#
+2 17 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+996 lines were written
+GLPK Simplex Optimizer, v4.52
+42 rows, 400 columns, 764 non-zeros
+    174: obj =   1.750000000e+02  infeas =  1.000e+00 (2)
+*   176: obj =   2.310000000e+02  infeas =  0.000e+00 (1)
+*   182: obj =   1.780000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+42 rows, 400 columns, 764 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   182: mip =     not found yet >=              -inf        (1; 0)
++   182: >>>>>   1.780000000e+02 >=   1.780000000e+02   0.0% (1; 0)
++   182: mip =   1.780000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 178.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 16         |
+|    1 -> 17         |
+|    2 -> 13         |
+|    3 -> 18         |
+|    4 -> 6         |
+|    5 -> 15         |
+|    6 -> 1         |
+|    7 -> 4         |
+|    8 -> 0         |
+|    9 -> 19         |
+|    10 -> 11         |
+|    11 -> 10         |
+|    12 -> 14         |
+|    13 -> 7         |
+|    14 -> 12         |
+|    15 -> 5         |
+|    16 -> 8         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:16 
+Boucle -> i:0 j:3 y:8 
+AvantBoucle -> i:1 j:2 y:17 
+Boucle -> i:1 j:3 y:2 
+Boucle -> i:1 j:4 y:13 
+Boucle -> i:1 j:5 y:7 
+Boucle -> i:1 j:6 y:4 
+Boucle -> i:1 j:7 y:6 
+AvantBoucle -> i:3 j:2 y:18 
+AvantBoucle -> i:5 j:2 y:15 
+AvantBoucle -> i:9 j:2 y:19 
+AvantBoucle -> i:10 j:2 y:11 
+AvantBoucle -> i:12 j:2 y:14 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 7 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  16  8 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  17  2  13  7  4  6 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 3  18 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 9  19 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 10  11 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 12  14 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  3 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 3  18 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°4 ---------#
+3 18 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+997 lines were written
+GLPK Simplex Optimizer, v4.52
+43 rows, 400 columns, 766 non-zeros
+    182: obj =   1.780000000e+02  infeas =  1.000e+00 (2)
+*   186: obj =   2.060000000e+02  infeas =  0.000e+00 (1)
+*   208: obj =   1.830000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+43 rows, 400 columns, 766 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   208: mip =     not found yet >=              -inf        (1; 0)
++   209: >>>>>   1.830000000e+02 >=   1.830000000e+02   0.0% (1; 0)
++   209: mip =   1.830000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 183.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 16         |
+|    1 -> 6         |
+|    2 -> 17         |
+|    3 -> 18         |
+|    4 -> 7         |
+|    5 -> 15         |
+|    6 -> 4         |
+|    7 -> 13         |
+|    8 -> 0         |
+|    9 -> 19         |
+|    10 -> 11         |
+|    11 -> 10         |
+|    12 -> 14         |
+|    13 -> 3         |
+|    14 -> 12         |
+|    15 -> 5         |
+|    16 -> 8         |
+|    17 -> 1         |
+|    18 -> 2         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:16 
+Boucle -> i:0 j:3 y:8 
+AvantBoucle -> i:1 j:2 y:6 
+Boucle -> i:1 j:3 y:4 
+Boucle -> i:1 j:4 y:7 
+Boucle -> i:1 j:5 y:13 
+Boucle -> i:1 j:6 y:3 
+Boucle -> i:1 j:7 y:18 
+Boucle -> i:1 j:8 y:2 
+Boucle -> i:1 j:9 y:17 
+AvantBoucle -> i:5 j:2 y:15 
+AvantBoucle -> i:9 j:2 y:19 
+AvantBoucle -> i:10 j:2 y:11 
+AvantBoucle -> i:12 j:2 y:14 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 6 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  16  8 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  6  4  7  13  3  18  2  17 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 9  19 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 10  11 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 12  14 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  3 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 5  15 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°5 ---------#
+5 15 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+998 lines were written
+GLPK Simplex Optimizer, v4.52
+44 rows, 400 columns, 768 non-zeros
+    209: obj =   1.830000000e+02  infeas =  1.000e+00 (2)
+*   210: obj =   2.110000000e+02  infeas =  0.000e+00 (2)
+*   226: obj =   1.880000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+44 rows, 400 columns, 768 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   226: mip =     not found yet >=              -inf        (1; 0)
++   230: >>>>>   1.880000000e+02 >=   1.880000000e+02   0.0% (1; 0)
++   230: mip =   1.880000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 188.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 16         |
+|    1 -> 6         |
+|    2 -> 17         |
+|    3 -> 18         |
+|    4 -> 7         |
+|    5 -> 15         |
+|    6 -> 4         |
+|    7 -> 13         |
+|    8 -> 2         |
+|    9 -> 19         |
+|    10 -> 11         |
+|    11 -> 10         |
+|    12 -> 14         |
+|    13 -> 3         |
+|    14 -> 12         |
+|    15 -> 0         |
+|    16 -> 8         |
+|    17 -> 1         |
+|    18 -> 5         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:16 
+Boucle -> i:0 j:3 y:8 
+Boucle -> i:0 j:4 y:2 
+Boucle -> i:0 j:5 y:17 
+Boucle -> i:0 j:6 y:1 
+Boucle -> i:0 j:7 y:6 
+Boucle -> i:0 j:8 y:4 
+Boucle -> i:0 j:9 y:7 
+Boucle -> i:0 j:10 y:13 
+Boucle -> i:0 j:11 y:3 
+Boucle -> i:0 j:12 y:18 
+Boucle -> i:0 j:13 y:5 
+Boucle -> i:0 j:14 y:15 
+AvantBoucle -> i:9 j:2 y:19 
+AvantBoucle -> i:10 j:2 y:11 
+AvantBoucle -> i:12 j:2 y:14 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 4 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  16  8  2  17  1  6  4  7  13  3  18  5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 9  19 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 10  11 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 12  14 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  2 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 9  19 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°6 ---------#
+9 19 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+999 lines were written
+GLPK Simplex Optimizer, v4.52
+45 rows, 400 columns, 770 non-zeros
+    230: obj =   1.880000000e+02  infeas =  1.000e+00 (2)
+*   237: obj =   2.252500000e+02  infeas =  0.000e+00 (1)
+*   249: obj =   1.990000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+45 rows, 400 columns, 770 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   249: mip =     not found yet >=              -inf        (1; 0)
++   257: >>>>>   1.990000000e+02 >=   1.990000000e+02   0.0% (1; 0)
++   257: mip =   1.990000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 199.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 8         |
+|    1 -> 17         |
+|    2 -> 4         |
+|    3 -> 12         |
+|    4 -> 6         |
+|    5 -> 15         |
+|    6 -> 1         |
+|    7 -> 13         |
+|    8 -> 16         |
+|    9 -> 18         |
+|    10 -> 19         |
+|    11 -> 10         |
+|    12 -> 14         |
+|    13 -> 7         |
+|    14 -> 5         |
+|    15 -> 0         |
+|    16 -> 11         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:8 
+Boucle -> i:0 j:3 y:16 
+Boucle -> i:0 j:4 y:11 
+Boucle -> i:0 j:5 y:10 
+Boucle -> i:0 j:6 y:19 
+Boucle -> i:0 j:7 y:9 
+Boucle -> i:0 j:8 y:18 
+Boucle -> i:0 j:9 y:3 
+Boucle -> i:0 j:10 y:12 
+Boucle -> i:0 j:11 y:14 
+Boucle -> i:0 j:12 y:5 
+Boucle -> i:0 j:13 y:15 
+AvantBoucle -> i:1 j:2 y:17 
+Boucle -> i:1 j:3 y:2 
+Boucle -> i:1 j:4 y:4 
+Boucle -> i:1 j:5 y:6 
+AvantBoucle -> i:7 j:2 y:13 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 3 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  8  16  11  10  19  9  18  3  12  14  5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  17  2  4  6 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 7  13 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  3 de taille 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 7  13 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°7 ---------#
+7 13 ); Taille: 2 
+Writing problem data to 'robots.lp'...
+1000 lines were written
+GLPK Simplex Optimizer, v4.52
+46 rows, 400 columns, 772 non-zeros
+*   257: obj =   1.990000000e+02  infeas =  0.000e+00 (2)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+46 rows, 400 columns, 772 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   257: mip =     not found yet >=              -inf        (1; 0)
++   267: >>>>>   1.990000000e+02 >=   1.990000000e+02   0.0% (1; 0)
++   267: mip =   1.990000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 199.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 8         |
+|    1 -> 17         |
+|    2 -> 13         |
+|    3 -> 12         |
+|    4 -> 6         |
+|    5 -> 15         |
+|    6 -> 1         |
+|    7 -> 4         |
+|    8 -> 16         |
+|    9 -> 18         |
+|    10 -> 19         |
+|    11 -> 10         |
+|    12 -> 14         |
+|    13 -> 7         |
+|    14 -> 5         |
+|    15 -> 0         |
+|    16 -> 11         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:8 
+Boucle -> i:0 j:3 y:16 
+Boucle -> i:0 j:4 y:11 
+Boucle -> i:0 j:5 y:10 
+Boucle -> i:0 j:6 y:19 
+Boucle -> i:0 j:7 y:9 
+Boucle -> i:0 j:8 y:18 
+Boucle -> i:0 j:9 y:3 
+Boucle -> i:0 j:10 y:12 
+Boucle -> i:0 j:11 y:14 
+Boucle -> i:0 j:12 y:5 
+Boucle -> i:0 j:13 y:15 
+AvantBoucle -> i:1 j:2 y:17 
+Boucle -> i:1 j:3 y:2 
+Boucle -> i:1 j:4 y:13 
+Boucle -> i:1 j:5 y:7 
+Boucle -> i:1 j:6 y:4 
+Boucle -> i:1 j:7 y:6 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  8  16  11  10  19  9  18  3  12  14  5  15 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  17  2  13  7  4  6 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  2 de taille 7 
+!!CALCUL_CYCLE_MIN-- cycle : ( 1  17  2  13  7  4  6 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°8 ---------#
+1 17 2 13 7 4 6 ); Taille: 7 
+Writing problem data to 'robots.lp'...
+1001 lines were written
+GLPK Simplex Optimizer, v4.52
+47 rows, 400 columns, 779 non-zeros
+*   267: obj =   1.990000000e+02  infeas =  0.000e+00 (3)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+47 rows, 400 columns, 779 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   267: mip =     not found yet >=              -inf        (1; 0)
++   286: >>>>>   1.990000000e+02 >=   1.990000000e+02   0.0% (2; 0)
++   286: mip =   1.990000000e+02 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 199.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 15         |
+|    1 -> 17         |
+|    2 -> 8         |
+|    3 -> 12         |
+|    4 -> 6         |
+|    5 -> 13         |
+|    6 -> 1         |
+|    7 -> 4         |
+|    8 -> 16         |
+|    9 -> 18         |
+|    10 -> 19         |
+|    11 -> 10         |
+|    12 -> 14         |
+|    13 -> 7         |
+|    14 -> 11         |
+|    15 -> 5         |
+|    16 -> 0         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:15 
+Boucle -> i:0 j:3 y:5 
+Boucle -> i:0 j:4 y:13 
+Boucle -> i:0 j:5 y:7 
+Boucle -> i:0 j:6 y:4 
+Boucle -> i:0 j:7 y:6 
+Boucle -> i:0 j:8 y:1 
+Boucle -> i:0 j:9 y:17 
+Boucle -> i:0 j:10 y:2 
+Boucle -> i:0 j:11 y:8 
+Boucle -> i:0 j:12 y:16 
+AvantBoucle -> i:3 j:2 y:12 
+Boucle -> i:3 j:3 y:14 
+Boucle -> i:3 j:4 y:11 
+Boucle -> i:3 j:5 y:10 
+Boucle -> i:3 j:6 y:19 
+Boucle -> i:3 j:7 y:9 
+Boucle -> i:3 j:8 y:18 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 2 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  15  5  13  7  4  6  1  17  2  8  16 );
+!!CALCUL_CYCLE_MIN-- cycle : ( 3  12  14  11  10  19  9  18 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  2 de taille 8 
+!!CALCUL_CYCLE_MIN-- cycle : ( 3  12  14  11  10  19  9  18 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+#--------- Résolution n°9 ---------#
+3 12 14 11 10 19 9 18 ); Taille: 8 
+Writing problem data to 'robots.lp'...
+1003 lines were written
+GLPK Simplex Optimizer, v4.52
+48 rows, 400 columns, 787 non-zeros
+    286: obj =   1.990000000e+02  infeas =  1.000e+00 (4)
+*   290: obj =   1.990000000e+02  infeas =  0.000e+00 (1)
+*   301: obj =   1.990000000e+02  infeas =  0.000e+00 (1)
+OPTIMAL LP SOLUTION FOUND
+GLPK Integer Optimizer, v4.52
+48 rows, 400 columns, 787 non-zeros
+400 integer variables, all of which are binary
+Integer optimization begins...
++   301: mip =     not found yet >=              -inf        (1; 0)
++   326: >>>>>   2.090000000e+02 >=   1.990000000e+02   4.8% (3; 0)
++   336: >>>>>   2.010000000e+02 >=   2.000000000e+02   0.5% (3; 2)
++   341: mip =   2.010000000e+02 >=     tree is empty   0.0% (0; 9)
+INTEGER OPTIMAL SOLUTION FOUND
+#-------------------#
+| z = 201.000000   |
+#-------------------#
+#-------------------#
+|    Cycles         |
+#-------------------#
+|    0 -> 15         |
+|    1 -> 17         |
+|    2 -> 8         |
+|    3 -> 12         |
+|    4 -> 6         |
+|    5 -> 14         |
+|    6 -> 1         |
+|    7 -> 4         |
+|    8 -> 16         |
+|    9 -> 18         |
+|    10 -> 19         |
+|    11 -> 10         |
+|    12 -> 13         |
+|    13 -> 7         |
+|    14 -> 11         |
+|    15 -> 5         |
+|    16 -> 0         |
+|    17 -> 2         |
+|    18 -> 3         |
+|    19 -> 9         |
+#-------------------#
+!!CALCUL_CYCLE_MIN--ON
+AvantBoucle -> i:0 j:2 y:15 
+Boucle -> i:0 j:3 y:5 
+Boucle -> i:0 j:4 y:14 
+Boucle -> i:0 j:5 y:11 
+Boucle -> i:0 j:6 y:10 
+Boucle -> i:0 j:7 y:19 
+Boucle -> i:0 j:8 y:9 
+Boucle -> i:0 j:9 y:18 
+Boucle -> i:0 j:10 y:3 
+Boucle -> i:0 j:11 y:12 
+Boucle -> i:0 j:12 y:13 
+Boucle -> i:0 j:13 y:7 
+Boucle -> i:0 j:14 y:4 
+Boucle -> i:0 j:15 y:6 
+Boucle -> i:0 j:16 y:1 
+Boucle -> i:0 j:17 y:17 
+Boucle -> i:0 j:18 y:2 
+Boucle -> i:0 j:19 y:8 
+Boucle -> i:0 j:20 y:16 
+!!CALCUL_CYCLE_MIN-- NB_CYCLES: 1 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  15  5  14  11  10  19  9  18  3  12  13  7  4  6  1  17  2  8  16 );
+!!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  1 de taille 20 
+!!CALCUL_CYCLE_MIN-- cycle : ( 0  15  5  14  11  10  19  9  18  3  12  13  7  4  6  1  17  2  8  16 );
+!!CALCUL_CYCLE_MIN--LIBERATION_MEMOIRE
+!!CALCUL_CYCLE_MIN--OFF
+
+Résultat Final:
+-----------
+Temps : 0.036000
+Nombre d'appels à GPLK : 9
+Nombre de contraintes ajoutées : 8

@@ -3,7 +3,7 @@ nb_var = 100, nb_cont = 20, nb_mat = 180
 Fermeture du fichier de données :  
 Writing problem data to 'robots.lp'...
 248 lines were written
-#--------- Résolution n°1 ---------#
+#--------- Résolution n°0 ---------#
 GLPK Simplex Optimizer, v4.52
 20 rows, 100 columns, 180 non-zeros
       0: obj =   0.000000000e+00  infeas =  2.000e+01 (20)
@@ -136,11 +136,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    9 -> 3         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:2 
-AvantBoucle -> i:1 j:2 y:8 
-AvantBoucle -> i:3 j:2 y:9 
-AvantBoucle -> i:4 j:2 y:7 
-AvantBoucle -> i:5 j:2 y:6 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 5 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  2 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 1  8 );
@@ -188,14 +183,12 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    9 -> 1         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:2 
 Boucle -> i:0 j:3 y:6 
 Boucle -> i:0 j:4 y:5 
 Boucle -> i:0 j:5 y:3 
 Boucle -> i:0 j:6 y:9 
 Boucle -> i:0 j:7 y:1 
 Boucle -> i:0 j:8 y:8 
-AvantBoucle -> i:4 j:2 y:7 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 2 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  2  6  5  3  9  1  8 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 4  7 );
@@ -239,7 +232,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    9 -> 3         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:8 
 Boucle -> i:0 j:3 y:1 
 Boucle -> i:0 j:4 y:9 
 Boucle -> i:0 j:5 y:3 

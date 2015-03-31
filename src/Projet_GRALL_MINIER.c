@@ -130,7 +130,6 @@ cycle_min min_cycles(int * cycles, int taille) {
 			// on incrémente le nombre de cycles
 			nb_cycles++;
 			j = 2;
-			printf("AvantBoucle -> i:%d j:%d y:%d \n",i,j,y );
 			// tant que l'indice du cycle que l'on va lire n'a pas déjà  été lu
 			while(deja_lu[cycles[y]] == false) {
 				deja_lu[cycles[y]] = true; // on a lu l'arc
@@ -207,8 +206,6 @@ int main(int argc, char *argv[])
 	// à modifier en char file[256]; quand tous sera terminé
 	char file[256];
 	
-	//printf("%s", "?!?Saisissez le chemin du fichier de données  : ");
-	//scanf("%79s", file);
 	lecture_data(argv[1], &datas);
 	
 	int i, j;
@@ -306,7 +303,7 @@ int main(int argc, char *argv[])
 	/* Résolution, puis lecture des résultats */
 
 	/* Résolution */
-	puts("#--------- Résolution n°1 ---------#");
+	puts("#--------- Résolution n°0 ---------#");
 	glp_simplex(prob,NULL);	
 	glp_intopt(prob,NULL); 
 	z = glp_mip_obj_val(prob); /* Récupération de la valeur optimale. Dans le cas d'un problème en variables continues, l'appel est différent : z = glp_get_obj_val(prob); */
@@ -346,13 +343,6 @@ int main(int argc, char *argv[])
 	nbsol+=1;
 	while(c_min.taille_cycle_min != datas.taille_dist) {
 
-		//POUR LE DEBUG AFFICHAGE DE IA JA AR 
-		int t,u;
-		/*printf("---------------------DEBUG-----------------------");
-		for(t=1;t<=datas.nb_mat;t++){
-			printf("ia[%d]=%d || ja[%d]=%d || ar[%d]=%f \n",t,ia[t],t,ja[t],t,ar[t]);
-		}
-		printf("--------------------DEBUGFIN--------------------- \n");*/
 		nbsol += 1;
 		nbcontr += 1;
 		// ajout d'une contrainte
@@ -361,35 +351,20 @@ int main(int argc, char *argv[])
 		datas.nb_mat += c_min.taille_cycle_min;
 		glp_set_row_bnds(prob, datas.nb_contr, GLP_FX, c_min.taille_cycle_min - 1.0, c_min.taille_cycle_min - 1.0);
 
-		//printf("ContrVal:%d | DatasNb_mat:%d | DatasNbContr:%d | nbsol:%d | nbcontr:%d | nbvar:%d \n",c_min.taille_cycle_min,datas.nb_mat,datas.nb_contr,nbsol,nbcontr, datas.nb_var);
 		// on complète la matrice
 		ia = (int*)realloc(ia, (1 + pos + c_min.taille_cycle_min )*sizeof(int));
 		ja = (int*)realloc(ja, (1 + pos + c_min.taille_cycle_min)*sizeof(int));
 		ar = (double*)realloc(ar, (1 + pos + c_min.taille_cycle_min)*sizeof(double));
 
 		for(i = 0; i < c_min.taille_cycle_min; i++) {
-				//printf("c_min.MIN[%d]=%d \n",i,c_min.min[i] );
-				//printf("ja[%d]=%d \n", pos,c_min.min[i]*datas.taille_dist + (c_min.min[(i + 1)] + 1 ));
-				//printf("ia[%d]=%d \n", pos, datas.nb_contr);
-				// c_min.min[i]*datas.taille_dist + (c_min.min[(i + 1)%c_min.taille_cycle_min] + 1)
-				// ( (c_min.min[i]) * datas.taille_dist ) + (c_min.min[i] +1)
 				ja[pos] = c_min.min[i]*datas.taille_dist + (c_min.min[(i + 1)%c_min.taille_cycle_min] + 1);
 				ia[pos] = datas.nb_contr;
 				ar[pos] = 1;
 				pos++;
 		}
-		/*ja[pos] = c_min.min[c_min.taille_cycle_min-1]*datas.taille_dist + (c_min.min[0] + 1);
-		ia[pos] = datas.nb_contr;
-		ar[pos] = 1;
-		pos++;*/
-		/*ja[pos] = c_min.min[i]*datas.taille_dist + (c_min.min[i]);
-		ia[pos] = datas.nb_contr;
-		ar[pos] = 1;
-		pos++;*/
 		
 		// on relance le simplexe
 		printf("#--------- Résolution n°%d ---------#\n", nbsol);
-		//printf("Cycle minimal [BEFORE]: (");
 		for(i = 0; i < c_min.taille_cycle_min; i++){
 			printf("%d ",c_min.min[i]);
 		}
@@ -411,21 +386,10 @@ int main(int argc, char *argv[])
 			if(glp_mip_col_val(prob, i+1) > 0.0){
 				int node = i/datas.taille_dist;
 				int nxt_node = i%datas.taille_dist;
-				//printf("%d -> %d\n", node, nxt_node);
 				x[node] = nxt_node;
 				cycles[node] = nxt_node;
 			}
 		}
-		/*for(i = 0; i < datas.nb_var;i++) {
-			x[i] = glp_mip_col_val(prob, i+1);
-			int val = (int)(x[i] + 0.5);	
-			
-			// Remplissage du tableau des cycles
-			if(val == 1) {
-				cycles[i % datas.taille_dist] = i / datas.taille_dist;
-				printf("| x[%d,%d]=%d  ou x[%d]=%f       |\n", i / datas.taille_dist, i % datas.taille_dist  , val,i,x[i]);
-			}
-		}*/
 
 		// on recalcule le cyc min
 		// Affichage des cycles actuels
@@ -439,13 +403,6 @@ int main(int argc, char *argv[])
 	 
 		// APPEL A LA FONCTION CALCULANT LE CYCLE MIN
 		c_min = min_cycles(cycles,datas.taille_dist );
-
-		/*//AFFICHAGE DES RESULTATS
-		printf("Cycle minimal [AFTER] : (");
-		for(i = 0; i < c_min.taille_cycle_min; i++){
-			printf("%d ",c_min.min[i]);
-		}
-		printf("); Taille: %d \n",c_min.taille_cycle_min);*/
 
 	}
 

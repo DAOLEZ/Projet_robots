@@ -1997,6 +1997,6 @@ Boucle -> i:0 j:30 y:3
 
 Résultat Final:
 -----------
-Temps : 0.087000
+Temps : 0.095000
 Nombre d'appels à GPLK : 12
 Nombre de contraintes ajoutées : 11

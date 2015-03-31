@@ -3,7 +3,7 @@ nb_var = 900, nb_cont = 60, nb_mat = 1740
 Fermeture du fichier de données :  
 Writing problem data to 'robots.lp'...
 2197 lines were written
-#--------- Résolution n°1 ---------#
+#--------- Résolution n°0 ---------#
 GLPK Simplex Optimizer, v4.52
 60 rows, 900 columns, 1740 non-zeros
       0: obj =   0.000000000e+00  infeas =  6.000e+01 (60)
@@ -956,21 +956,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:3 
-AvantBoucle -> i:1 j:2 y:11 
-AvantBoucle -> i:2 j:2 y:24 
-AvantBoucle -> i:4 j:2 y:7 
-AvantBoucle -> i:5 j:2 y:13 
-AvantBoucle -> i:6 j:2 y:16 
-AvantBoucle -> i:8 j:2 y:26 
-AvantBoucle -> i:9 j:2 y:19 
-AvantBoucle -> i:10 j:2 y:17 
-AvantBoucle -> i:12 j:2 y:15 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:18 j:2 y:20 
-AvantBoucle -> i:21 j:2 y:25 
-AvantBoucle -> i:23 j:2 y:27 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 15 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 1  11 );
@@ -1048,7 +1033,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:3 
 Boucle -> i:0 j:3 y:24 
 Boucle -> i:0 j:4 y:2 
 Boucle -> i:0 j:5 y:9 
@@ -1063,13 +1047,6 @@ Boucle -> i:0 j:13 y:15
 Boucle -> i:0 j:14 y:12 
 Boucle -> i:0 j:15 y:20 
 Boucle -> i:0 j:16 y:18 
-AvantBoucle -> i:4 j:2 y:7 
-AvantBoucle -> i:5 j:2 y:13 
-AvantBoucle -> i:6 j:2 y:16 
-AvantBoucle -> i:8 j:2 y:26 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:21 j:2 y:25 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 8 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  3  24  2  9  19  10  17  23  27  11  1  15  12  20  18 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 4  7 );
@@ -1139,7 +1116,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:3 
 Boucle -> i:0 j:3 y:7 
 Boucle -> i:0 j:4 y:4 
 Boucle -> i:0 j:5 y:25 
@@ -1149,18 +1125,11 @@ Boucle -> i:0 j:8 y:15
 Boucle -> i:0 j:9 y:12 
 Boucle -> i:0 j:10 y:20 
 Boucle -> i:0 j:11 y:18 
-AvantBoucle -> i:2 j:2 y:24 
-AvantBoucle -> i:5 j:2 y:13 
-AvantBoucle -> i:6 j:2 y:16 
 Boucle -> i:6 j:3 y:11 
 Boucle -> i:6 j:4 y:27 
 Boucle -> i:6 j:5 y:23 
 Boucle -> i:6 j:6 y:17 
 Boucle -> i:6 j:7 y:10 
-AvantBoucle -> i:8 j:2 y:26 
-AvantBoucle -> i:9 j:2 y:19 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 8 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  3  7  4  25  21  1  15  12  20  18 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 2  24 );
@@ -1230,7 +1199,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:18 
 Boucle -> i:0 j:3 y:20 
 Boucle -> i:0 j:4 y:12 
 Boucle -> i:0 j:5 y:15 
@@ -1242,17 +1210,11 @@ Boucle -> i:0 j:10 y:7
 Boucle -> i:0 j:11 y:2 
 Boucle -> i:0 j:12 y:24 
 Boucle -> i:0 j:13 y:3 
-AvantBoucle -> i:5 j:2 y:13 
-AvantBoucle -> i:6 j:2 y:16 
 Boucle -> i:6 j:3 y:11 
 Boucle -> i:6 j:4 y:27 
 Boucle -> i:6 j:5 y:23 
 Boucle -> i:6 j:6 y:17 
 Boucle -> i:6 j:7 y:10 
-AvantBoucle -> i:8 j:2 y:26 
-AvantBoucle -> i:9 j:2 y:19 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 7 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  18  20  12  15  1  21  25  4  7  2  24  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 5  13 );
@@ -1321,7 +1283,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:18 
 Boucle -> i:0 j:3 y:20 
 Boucle -> i:0 j:4 y:12 
 Boucle -> i:0 j:5 y:15 
@@ -1331,7 +1292,6 @@ Boucle -> i:0 j:8 y:25
 Boucle -> i:0 j:9 y:4 
 Boucle -> i:0 j:10 y:7 
 Boucle -> i:0 j:11 y:3 
-AvantBoucle -> i:2 j:2 y:24 
 Boucle -> i:2 j:3 y:13 
 Boucle -> i:2 j:4 y:5 
 Boucle -> i:2 j:5 y:11 
@@ -1341,10 +1301,6 @@ Boucle -> i:2 j:8 y:17
 Boucle -> i:2 j:9 y:10 
 Boucle -> i:2 j:10 y:19 
 Boucle -> i:2 j:11 y:9 
-AvantBoucle -> i:6 j:2 y:16 
-AvantBoucle -> i:8 j:2 y:26 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 6 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  18  20  12  15  1  21  25  4  7  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 2  24  13  5  11  27  23  17  10  19  9 );
@@ -1412,7 +1368,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:18 
 Boucle -> i:0 j:3 y:20 
 Boucle -> i:0 j:4 y:12 
 Boucle -> i:0 j:5 y:15 
@@ -1422,7 +1377,6 @@ Boucle -> i:0 j:8 y:25
 Boucle -> i:0 j:9 y:4 
 Boucle -> i:0 j:10 y:7 
 Boucle -> i:0 j:11 y:3 
-AvantBoucle -> i:2 j:2 y:24 
 Boucle -> i:2 j:3 y:13 
 Boucle -> i:2 j:4 y:5 
 Boucle -> i:2 j:5 y:11 
@@ -1432,10 +1386,6 @@ Boucle -> i:2 j:8 y:6
 Boucle -> i:2 j:9 y:10 
 Boucle -> i:2 j:10 y:19 
 Boucle -> i:2 j:11 y:9 
-AvantBoucle -> i:8 j:2 y:26 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:17 j:2 y:23 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 6 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  18  20  12  15  1  21  25  4  7  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 2  24  13  5  11  27  16  6  10  19  9 );
@@ -1503,7 +1453,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:18 
 Boucle -> i:0 j:3 y:20 
 Boucle -> i:0 j:4 y:12 
 Boucle -> i:0 j:5 y:15 
@@ -1513,7 +1462,6 @@ Boucle -> i:0 j:8 y:25
 Boucle -> i:0 j:9 y:4 
 Boucle -> i:0 j:10 y:7 
 Boucle -> i:0 j:11 y:3 
-AvantBoucle -> i:2 j:2 y:9 
 Boucle -> i:2 j:3 y:26 
 Boucle -> i:2 j:4 y:8 
 Boucle -> i:2 j:5 y:19 
@@ -1525,9 +1473,6 @@ Boucle -> i:2 j:10 y:11
 Boucle -> i:2 j:11 y:5 
 Boucle -> i:2 j:12 y:13 
 Boucle -> i:2 j:13 y:24 
-AvantBoucle -> i:14 j:2 y:22 
-AvantBoucle -> i:17 j:2 y:23 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 5 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  18  20  12  15  1  21  25  4  7  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 2  9  26  8  19  10  6  16  27  11  5  13  24 );
@@ -1594,7 +1539,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:14 
 Boucle -> i:0 j:3 y:22 
 Boucle -> i:0 j:4 y:13 
 Boucle -> i:0 j:5 y:5 
@@ -1607,17 +1551,12 @@ Boucle -> i:0 j:11 y:7
 Boucle -> i:0 j:12 y:2 
 Boucle -> i:0 j:13 y:24 
 Boucle -> i:0 j:14 y:3 
-AvantBoucle -> i:6 j:2 y:10 
 Boucle -> i:6 j:3 y:17 
 Boucle -> i:6 j:4 y:23 
 Boucle -> i:6 j:5 y:27 
 Boucle -> i:6 j:6 y:16 
-AvantBoucle -> i:8 j:2 y:26 
 Boucle -> i:8 j:3 y:9 
 Boucle -> i:8 j:4 y:19 
-AvantBoucle -> i:12 j:2 y:15 
-AvantBoucle -> i:18 j:2 y:20 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 6 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  14  22  13  5  11  1  21  25  4  7  2  24  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 6  10  17  23  27  16 );
@@ -1685,7 +1624,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:14 
 Boucle -> i:0 j:3 y:22 
 Boucle -> i:0 j:4 y:13 
 Boucle -> i:0 j:5 y:5 
@@ -1699,17 +1637,13 @@ Boucle -> i:0 j:12 y:7
 Boucle -> i:0 j:13 y:2 
 Boucle -> i:0 j:14 y:24 
 Boucle -> i:0 j:15 y:3 
-AvantBoucle -> i:6 j:2 y:16 
 Boucle -> i:6 j:3 y:11 
 Boucle -> i:6 j:4 y:27 
 Boucle -> i:6 j:5 y:23 
 Boucle -> i:6 j:6 y:17 
 Boucle -> i:6 j:7 y:10 
-AvantBoucle -> i:8 j:2 y:19 
 Boucle -> i:8 j:3 y:9 
 Boucle -> i:8 j:4 y:26 
-AvantBoucle -> i:18 j:2 y:20 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 5 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  14  22  13  5  12  15  1  21  25  4  7  2  24  3 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 6  16  11  27  23  17  10 );
@@ -1777,7 +1711,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:3 
 Boucle -> i:0 j:3 y:7 
 Boucle -> i:0 j:4 y:4 
 Boucle -> i:0 j:5 y:25 
@@ -1789,7 +1722,6 @@ Boucle -> i:0 j:10 y:1
 Boucle -> i:0 j:11 y:21 
 Boucle -> i:0 j:12 y:22 
 Boucle -> i:0 j:13 y:14 
-AvantBoucle -> i:2 j:2 y:24 
 Boucle -> i:2 j:3 y:13 
 Boucle -> i:2 j:4 y:5 
 Boucle -> i:2 j:5 y:11 
@@ -1801,8 +1733,6 @@ Boucle -> i:2 j:10 y:19
 Boucle -> i:2 j:11 y:8 
 Boucle -> i:2 j:12 y:26 
 Boucle -> i:2 j:13 y:9 
-AvantBoucle -> i:17 j:2 y:23 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 4 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  3  7  4  25  18  20  12  15  1  21  22  14 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 2  24  13  5  11  27  16  6  10  19  8  26  9 );
@@ -1868,14 +1798,12 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:3 
 Boucle -> i:0 j:3 y:7 
 Boucle -> i:0 j:4 y:4 
 Boucle -> i:0 j:5 y:25 
 Boucle -> i:0 j:6 y:21 
 Boucle -> i:0 j:7 y:22 
 Boucle -> i:0 j:8 y:14 
-AvantBoucle -> i:1 j:2 y:11 
 Boucle -> i:1 j:3 y:5 
 Boucle -> i:1 j:4 y:13 
 Boucle -> i:1 j:5 y:24 
@@ -1888,12 +1816,10 @@ Boucle -> i:1 j:11 y:18
 Boucle -> i:1 j:12 y:20 
 Boucle -> i:1 j:13 y:12 
 Boucle -> i:1 j:14 y:15 
-AvantBoucle -> i:6 j:2 y:10 
 Boucle -> i:6 j:3 y:17 
 Boucle -> i:6 j:4 y:23 
 Boucle -> i:6 j:5 y:27 
 Boucle -> i:6 j:6 y:16 
-AvantBoucle -> i:28 j:2 y:29 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 4 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  3  7  4  25  21  22  14 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 1  11  5  13  24  2  9  19  8  26  18  20  12  15 );
@@ -1959,7 +1885,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    29 -> 28         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-AvantBoucle -> i:0 j:2 y:14 
 Boucle -> i:0 j:3 y:22 
 Boucle -> i:0 j:4 y:21 
 Boucle -> i:0 j:5 y:11 
@@ -1997,6 +1922,6 @@ Boucle -> i:0 j:30 y:3
 
 Résultat Final:
 -----------
-Temps : 0.095000
+Temps : 0.103000
 Nombre d'appels à GPLK : 12
 Nombre de contraintes ajoutées : 11

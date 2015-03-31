@@ -140,7 +140,6 @@ cycle_min min_cycles(int * cycles, int taille) {
 				// on avance dans le parcours
 				y = cycles[y];
 				j++;
-				printf("Boucle -> i:%d j:%d y:%d \n",i,j,y );
 			}
 			z++;
 		}

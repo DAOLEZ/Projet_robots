@@ -82,7 +82,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    6 -> 0         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-Boucle -> i:0 j:3 y:6 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 3 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  4  6 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 1  5 );
@@ -125,7 +124,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    6 -> 0         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-Boucle -> i:1 j:3 y:5 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 3 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  6 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 1  4  5 );
@@ -167,11 +165,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    6 -> 0         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-Boucle -> i:0 j:3 y:5 
-Boucle -> i:0 j:4 y:1 
-Boucle -> i:0 j:5 y:2 
-Boucle -> i:0 j:6 y:3 
-Boucle -> i:0 j:7 y:6 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 1 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  4  5  1  2  3  6 );
 !!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  1 de taille 7 

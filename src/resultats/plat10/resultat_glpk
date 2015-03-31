@@ -183,12 +183,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    9 -> 1         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-Boucle -> i:0 j:3 y:6 
-Boucle -> i:0 j:4 y:5 
-Boucle -> i:0 j:5 y:3 
-Boucle -> i:0 j:6 y:9 
-Boucle -> i:0 j:7 y:1 
-Boucle -> i:0 j:8 y:8 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 2 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  2  6  5  3  9  1  8 );
 !!CALCUL_CYCLE_MIN-- cycle : ( 4  7 );
@@ -232,14 +226,6 @@ INTEGER OPTIMAL SOLUTION FOUND
 |    9 -> 3         |
 #-------------------#
 !!CALCUL_CYCLE_MIN--ON
-Boucle -> i:0 j:3 y:1 
-Boucle -> i:0 j:4 y:9 
-Boucle -> i:0 j:5 y:3 
-Boucle -> i:0 j:6 y:5 
-Boucle -> i:0 j:7 y:6 
-Boucle -> i:0 j:8 y:7 
-Boucle -> i:0 j:9 y:4 
-Boucle -> i:0 j:10 y:2 
 !!CALCUL_CYCLE_MIN-- NB_CYCLES: 1 
 !!CALCUL_CYCLE_MIN-- cycle : ( 0  8  1  9  3  5  6  7  4  2 );
 !!CALCUL_CYCLE_MIN-- C'est le cycle numéro :  1 de taille 10 
@@ -249,6 +235,6 @@ Boucle -> i:0 j:10 y:2
 
 Résultat Final:
 -----------
-Temps : 0.003000
+Temps : 0.002000
 Nombre d'appels à GPLK : 3
 Nombre de contraintes ajoutées : 2

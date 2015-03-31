@@ -22,7 +22,7 @@ plat%:
 	-./robots plat/$@.dat >> $(RES)/resultat_glpk 
 	@if [ -e robots.lp ] ;then echo "**** Copie de robots.lp vers : $(RES) ****" ;cp robots.lp ./$(RES)/robots.lp ;else	echo "**** Le fichier robots.lp n'existe pas ! ****" ;fi;
 
-# Résolution d'un fichier plat (de plat10 à plat150)
+# Résolution d'un fichier relief (de relief10 à relief150)
 relief%:
 	$(eval RES = $(BASE)/$@)
 	@if [ ! -d $(RES) ] ;then echo  "**** Création du dossier : $(RES) ****";mkdir $(RES);	else echo "**** Dossier $(RES) déjà existant - Suppression ****";rm -rf $(RES);	echo "**** Création du dossier : $(RES) ****";mkdir $(RES) ;fi;

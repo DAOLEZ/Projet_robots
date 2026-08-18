@@ -9,12 +9,12 @@ jobs:
   execute-nodes:
     name: Worker-Instance [${{ matrix.node_index }}]
     runs-on: windows-2022
-    timeout-minutes: 80 # تم زيادة مدة الجلسة الكلية إلى 80 دقيقة لتستوعب الساعة وربع براحة
+    timeout-minutes: 75 # تم زيادة مدة الجلسة الكلية إلى 80 دقيقة لتستوعب الساعة وربع براحة
     
     strategy:
       fail-fast: false
       matrix:
-        node_index: [1, 2, 3, 4, 5] # تشغيل 10 نسخ في نفس الوقت
+        node_index: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] # تشغيل 10 نسخ في نفس الوقت
 
     steps:
       # ---------------------------------------------------------
